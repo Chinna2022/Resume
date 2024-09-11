@@ -1,0 +1,194 @@
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-10pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-9pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Large \textbf{Srihari Thammisetti}} \\
+    \href{tel:+1 (469) 203-2522}{+1 (469) 203-2522}
+    \textbar{} Dallas-Fort Worth, TX \textbar{}
+    \href{https://www.linkedin.com/in/srihari-thammisetti/}{LinkedIn} \textbar{}
+    \href{https://github.com/Chinna2022}{GitHub} \textbar{}
+    \href{mailto:srihari2k24@gmail.com}{srihari2k24@gmail.com}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Texas at Arlington}{Arlington, TX}
+      {Master of Science in Applied Statistics and Data Science (GPA: 4/4)}{Aug 2023 -- Dec 2024}
+    \resumeSubheading
+      {Madanapalle Institute of Technology and Science }{Andhra pradesh, India}
+      {Bachelor's in Mechanical Engineering; (CGPA: 8/10)}{Aug 2017 -- Jun 2021}
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Computer Science Expertise and Projects}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages :}{ Python, SQL, R} \\
+      \textbf{Data Analysis and Visualization :}{ Pandas, Matplotlib, Seaborn, PowerBI, Tableau} \\
+     \textbf{Technical Skills : }{Python, SQL, Excel, AWS, Spark, Airflow, Feature Engineering, ETL, Business Analytics, Data Warehousing, Machine Learning, Deep Learning, Statistical Modeling, Data Management, Data Mining} \\
+     \textbf{Frameworks/Libraries : }{Git, Docker, Scikit-learn, PyTorch}\\
+     \textbf{Certifications : }{ IBM Data Science Professional Certificate, PostgreSQL, Data Structures and Algorithms}}}
+ \end{itemize}\vspace{-15pt}
+ %-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Technical Analyst}{Bangalore, India}
+      {Infosys }{April 2022 -- August 2023}
+      \resumeItemListStart
+        \resumeItem{Demonstrated daily expertise in SQL for Applications and Database support, utilizing advanced queries to ensure data accuracy,integrity, and efficient information retrieval, including the secure handling of user information.}
+        \resumeItem{Hands-on experience in defining functions, stored procedures, indexes, and JOINS to optimize database operations and enhance system performance}
+         \resumeItem{Proficient in writing advanced SQL queries, leveraging JOINS, CTEs, and other techniques to meet specific business and customer requirements.}
+         \resumeItem{Analyzed complex datasets in Excel using advanced functions and pivot tables, enabling the identification of key trends that directly contributed to team decision-making speed}
+         \resumeItemListEnd
+    \resumeSubheading
+      {University of Texas at Arlington}{Arlington, TX}
+      {Graduate Student Tutor - Math}{Feb 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{Assisted in teaching and mentoring undergraduate students in fundamental statistics concepts, such as probability and hypothesis testing}
+        \resumeItem{Graded assignments, facilitated lab activities, and offered one-on-one support to improve students’ comprehension and practical application of statistical methods}
+      \resumeItemListEnd
+        
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    
+ \resumeProjectHeading
+          {\textbf{Car Crash Survival Prediction} $|$ \emph{Python}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a predictive model using GIS data and machine learning techniques to estimate car crash survival rates, identifying key factors influencing outcomes.}
+            \resumeItem{Utilized Python and scikit-learn to build and validate the model, enhancing understanding of geographical influences on crash survival rates.}
+          \resumeItemListEnd
+ \resumeProjectHeading
+          {\textbf{Indian EV Market Insights} $|$ \emph{Power BI, SQL, Excel}}{}
+          \resumeItemListStart
+            \resumeItem{Designed a comprehensive marketing strategy that emphasized sustainable branding for AtliQ Motors; projected to enhance brand visibility by 30 percent and generate over 5,000 pre-launch inquiries from eco-conscious consumers}
+            \resumeItem{Conducted in-depth analytics to forecast future sales projections; established actionable insights that shaped market entry strategies focused on customer-centric offerings, leading to a projected increase in market share by 20 percent.}
+            \resumeItem{Developed targeted recommendations for AtliQ Motors, focusing on leveraging technology, charging infrastructure. Highlighted sustainable branding and effective marketing strategies for a successful EV launch}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+
+%
+
+
+
+
+
+
+%-------------------------------------------
+\end{document}
